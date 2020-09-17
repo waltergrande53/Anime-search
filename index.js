@@ -65,7 +65,7 @@ function getResults(q) {
        d.className="top-info"
        d.innerHTML =`<h4>  ${getData.top[i].title}</h4>
       <img  class='anime_img' src =${getData.top[i].image_url}/>
-      <p><strong>${getData.top[i].score}</strong></p>`
+      <p><strong>Rating:${getData.top[i].score}</strong></p>`
        top_data.appendChild(d)
      }
      
