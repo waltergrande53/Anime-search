@@ -3,7 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color:#333;
+  color:black;
+  font-weight: bold;
+}
 .top_title {
   text-align: center;
   margin: auto;
@@ -69,7 +73,7 @@ h1 {
   text-align: center;
   margin: auto;
   width: 50%;
-  color: blue;
+  color: white;
 }
 
 .content .box .moreinfo a {
@@ -78,24 +82,17 @@ h1 {
   text-decoration: none;
 }
 
+
+
+
 .top_Data {
-  color: white;
-
-  width: 100%;
-}
-
-.top-info {
-  background-color: #9c4eff;
-
-}
-
-.top_Data:nth-child(n) {
   display: grid;
-  grid-template-columns: repeat(2, 5fr);
-  grid-gap: 20px;
-  grid-auto-rows: minmax(auto, auto);
-  width: 50%;
-  margin:auto;
+ margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: limegreen;
 }
 
 .header {
@@ -103,18 +100,10 @@ h1 {
   display: flex;
   width: 50%;
   margin: auto;
+  background:darkgreen;
+  padding: 1%;
 }
 #search_bar{
   margin-left: 10%;
   width: 90%;
-}
-@media only screen and (max-width: 600px) {
-  .top_Data:nth-child(n) {
-    display: grid;
-    grid-template-columns: repeat(2, 5fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(auto, auto);
-    width: 100%;
-    margin: auto;
-  }
 }
