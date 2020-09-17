@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top_title{
+  text-align: center;
+  margin: auto;
+  width:50%;
+}
+.anime_img{
+  width: 100%;
+  object-fit: contain;
+}
+.content{
+    margin: 10px 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content .box{
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: rgb(255, 211, 130);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .box .poster{
+  object-position: contain;
+    width: 70%;
+    height: 100%;
+}
+.content .box img{
+    width: 100%;
+    height: 100%;
+}
+.content .box .title{
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+}
+.content .box .type{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.content .box .moreinfo{
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(66, 66, 66, 0.762);
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+  text-align: center;
+}
+.content .box .moreinfo a{
+    color: white;
+    line-height: 35px;
+    text-decoration: none;
+}
+.top_Data{
+  color: white;
+ 
+  width: 100%;
+}
+.top-info{background-color: #9c4eff;
+  
+}
+.top_Data:nth-child(n){
+  display: grid;
+ grid-template-columns: repeat(2, 5fr);
+ grid-gap: 20px;
+ grid-auto-rows: minmax(auto,auto);
+ width: 100%;
+}
+.header{
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
