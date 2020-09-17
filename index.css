@@ -58,6 +58,9 @@
 }
 h1{
   text-align: center;
+  margin:auto;
+  width:50%;
+  color:blue;
 }
 .content .box .moreinfo a{
     color: white;
