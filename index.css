@@ -30,10 +30,10 @@ body{
 .content .box {
   padding: 10px 20px;
   margin: 10px 0;
-  background: rgb(255, 211, 130);
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  background: rgb(255, 211, 130);
   align-items: center;
   flex-direction: column;
 }
@@ -81,20 +81,6 @@ h1 {
   line-height: 35px;
   text-decoration: none;
 }
-
-
-
-
-.top_Data {
-  display: grid;
- margin: 10px 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  background: limegreen;
-}
-
 .header {
   text-align: center;
   display: flex;
