@@ -1,6 +1,5 @@
 let btn = document.getElementById('btn_search');
 let bar = document.getElementById('search_bar');
-let top_data = document.querySelector(".top_Data")
 let top_Title = document.querySelector(".top_title")
 const api = "https://api.jikan.moe/v3/search/anime";
 btn.addEventListener('click', setQuery)
